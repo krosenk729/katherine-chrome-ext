@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "..\\lambmda-go"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\remake-static-ish-site"
+		}
+	],
+	"settings": {}
+}
