@@ -8,4 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
     fhcBtn.addEventListener("click", (e) => {
         chrome.tabs.executeScript({ file: 'email.js' })
     })
+
+    var pinBtn = document.getElementById("pin")
+    pinBtn.addEventListener("click", (e) => {
+        chrome.tabs.executeScript({ file: 'pin.js' })
+    })
 });
