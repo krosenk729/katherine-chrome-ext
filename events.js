@@ -13,4 +13,14 @@ document.addEventListener("DOMContentLoaded", () => {
     pinBtn.addEventListener("click", (e) => {
         chrome.tabs.executeScript({ file: 'pin.js' })
     })
+
+    var mIt = document.getElementById("m-it")
+    mIt.addEventListener("click", (e) => {
+        chrome.tabs.executeScript({ file: 'm.js' })
+    })
+
+    var mClipboard = document.getElementById("m-clipboard")
+    mClipboard.addEventListener("click", (e) => {
+        chrome.tabs.executeScript({ file: 'm-clipboard.js' })
+    })
 });
